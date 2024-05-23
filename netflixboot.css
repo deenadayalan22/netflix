@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+}
+
+.first-container {
+    height: 100vh;
+    min-height: 667px;
+    /* background-color: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("/assets/netflixbackgroung.jpg");
+    
+}
+
+header {
+    margin-inline: 10%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+/* .head-lang-signin {
+    padding-left: 60%;
+} */
+
+.select-option {
+    width: 120px;
+    height: 35px;
+}
+
+.signin {
+    background: rgb(193, 17, 25);
+    height: 35px;
+}
+
+.content {
+    padding-top: 15%;
+}
+
+.heading-of-page {
+    font-weight: 1000;
+}
+
+.email-button{
+    width: 300px;
+}
+
+.get-started-button {
+    background: rgb(193, 17, 25);
+    width: 150px;
+}
+
+.heading-content {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text-content {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.drop-down-button {
+    margin-inline: 10%;
+    width: -moz-available;
+    background-color:#2d2d2d ;
+}
+
+.text-size{
+    font-size: small;
+}
+
+.footer-styles {
+    list-style: none;
+}
+
+.footer-styles>li>a:hover {
+    text-decoration: underline;
+}

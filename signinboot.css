@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+
+.first-container {
+    min-height: 667px;
+    background-color: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: url("/assets/netflixbackgroung.jpg");
+
+}
+
+header {
+    margin-inline: 10%;
+    height: 80px;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.email-button {
+    height: 50px;
+}
+
+.password-button {
+    height: 50px;
+}
+
+.sign-in-button {
+    background-color: #e50914;
+}
+
+.use-a-signin-code-button {
+    background-color: #444443;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.select-option {
+    /* margin-inline: 5%; */
+    width: 120px;
+    height: 35px;
+}
